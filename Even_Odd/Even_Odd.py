@@ -30,13 +30,13 @@ for j in all_numbers:
 #To print out all even numbers
 print("Even numbers are:", )
 for i in range(len(even_numbers)):
-    print(i+1, "\b.", even_numbers[i])
+    print('\t', i+1, "\b.", even_numbers[i])
 if len(even_numbers) == 0:
     print("\tNo even numbers")
         
 #Loop to print out all odd numbers
 print("Odd numbers are:")
 for i in range(len(odd_numbers)):
-    print(i+1, "\b.", odd_numbers[i])
+    print('\t',i+1, "\b.", odd_numbers[i])
 if len(odd_numbers) == 0:
     print("\tNo odd numbers")
